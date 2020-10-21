@@ -1,0 +1,77 @@
+.main-nav {
+    display: flex;
+    height: 8vh;
+
+    width: 100%;
+    position: relative;
+    background: #2887de;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.left-nav {
+    display: flex;
+    justify-content: left;
+    flex: 3;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+.right-nav p {
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.setting img {
+    height: 28px;
+    width: 28px;
+    margin-left: 0.9em;
+    cursor: pointer;
+}
+
+.profile img {
+    height: 28px;
+    width: 28px;
+    margin-left: 0.9em;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 30px;
+    width: 30px;
+    margin-right: 0.2em;
+    cursor: pointer;
+}
+
+.line {
+    width: 30px;
+    height: 4px;
+    background: #fffcfc;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.hamburger {
+    margin-left: 0.9em;
+    cursor: pointer;
+}
+
+@media (max-width: 500px){
+    .setting{
+        display: none;
+    }
+    .right-nav p{
+        margin-right: 10px;
+    }
+}

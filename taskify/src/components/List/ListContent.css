@@ -1,0 +1,92 @@
+.list-group {
+    width: 469px;
+    display: flex;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.content {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.title-input {
+    border: 1px solid white;
+    margin-bottom: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    font-size: large;
+    color: rgb(99, 98, 98);
+}
+
+.title-input:focus {
+    outline: none;
+    
+}
+
+.title{
+    width: 100%;
+   
+   display: flex;
+    
+}
+
+
+
+.close-button {
+    margin-left: auto;
+    height: 22px;
+    width: 22px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.close-button:hover{
+    
+    border-radius: 20px;
+    fill: wheat;
+    border: 2px solid rgb(255, 89, 89);
+    cursor: pointer;
+
+}
+
+.add-task:hover {
+    color: #2887de;
+    cursor: pointer;
+} 
+
+.add-task{
+    margin-bottom: 0.9em;
+    color: rgb(110, 108, 108);
+}
+
+.task-input{
+    border: none;
+    margin-bottom: 1.5em;
+}
+
+.task-input:focus {
+    outline: none;
+    margin-bottom: 1.5em;
+}
+ 
+.plus img{
+    
+    height: 0.8em;
+    width: 0.8em;
+}
+
+@media (max-width: 600px) {
+    .list-group{
+        width: 90vw;
+    }
+    .close-button{
+        margin-left: auto;
+    }
+}
