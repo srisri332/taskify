@@ -1,0 +1,9 @@
+.each-task {
+    margin-bottom: 0.6em;
+
+}
+
+.each-task:hover {
+    background: rgb(226, 226, 226);
+    border-radius: 5px;
+}
